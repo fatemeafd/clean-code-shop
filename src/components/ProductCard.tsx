@@ -39,11 +39,11 @@ function ProductCard({ product, qty, percent, onAdd }: ProductCardProps) {
       <p className="price">
         {percent > 0 ? (
           <>
-            <s>{product.price.toLocaleString("fa-IR")}</s>
-            <span>{now.toLocaleString("fa-IR")}</span>
+            <s>{product.price.toLocaleString("en-US")}</s>
+            <span>{now.toLocaleString("en-US")}</span>
           </>
         ) : (
-          product.price.toLocaleString("fa-IR")
+          product.price.toLocaleString("en-US")
         )}
       </p>
       <button
