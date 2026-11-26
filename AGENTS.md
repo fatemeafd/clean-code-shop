@@ -1,6 +1,8 @@
-# <Clean Market>
+# Clean Market
 
 Persian RTL grocery shop, React + TypeScript + Vite (Gang of Forty, shops/<clean-code>).
+
+For a release, follow .claude/skills/release/SKILL.md step by step.
 
 ## Commands
 
@@ -21,8 +23,6 @@ Persian RTL grocery shop, React + TypeScript + Vite (Gang of Forty, shops/<clean
 
 ## Never
 
-- any, as (except as const), !, @ts-ignore
-- edit files outside this folder; commit node
-  \_
-  modules, dist, .env\*
-  , .vercel
+- Use `any`, `as` (except `as const`), `!`, or `@ts-ignore`.
+- Edit files outside this folder.
+- Commit `node_modules/`, `dist/`, `.env*`, or `.vercel/`.
