@@ -47,7 +47,7 @@ export default function ProductPage() {
         </div>
         <h1>{product.name}</h1>
         <p className="amount">{product.unit}</p>
-        <p className="price">{product.price.toLocaleString("en-US")}</p>
+        <p className="price">{product.price.toLocaleString("fa-IR")}</p>
         <button
           type="button"
           disabled={stock < 1}

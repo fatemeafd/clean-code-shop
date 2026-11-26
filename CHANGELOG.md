@@ -1,16 +1,5 @@
 # Changelog
 
-## [1.0.1] - 2026-11-27
-
-### Changed
-
-- Prices use English digits
-
-### Fixed
-
-- The Docker image requests the shop API, so products load in the container
-- The image is built for both amd64 and arm64
-
 ## [1.0.0] - 2026-11-24
 
 ### Added

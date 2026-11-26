@@ -31,7 +31,7 @@ export default function CartPanel({ products, offers }: CartPanelProps) {
             })}
           </ul>
         )}
-        <p>{total.toLocaleString("en-US")}</p>
+        <p>{total.toLocaleString("fa-IR")}</p>
         <div className="cart-actions">
           {rows.length === 0 ? (
             <button type="button" className="checkout-link" disabled>
